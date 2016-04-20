@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xml:lang="ja" lang="ja">
+<head>
+<meta charset="utf-8">
+<link href="tap.css" rel="#">
+<title>エンター</title>
+<body>
+
+<div class="main">
+
+<p class="count">
+	Enterrrrrrrr!!!!!
+</p>
+<!-- テキストエリア -->
+	<textarea class= "text"></textarea>
+
+<!-- ボタン -->
+	<p class="btn" id="elem">
+		<a onclick="sound()">エンターッ！！</a>
+	</p>
+
+<!-- 回数のカウント -->	
+<p class="count"><span id="result">0</span>回おされました</p>
+
+
+
+</div>
+
+
+ 
+<audio id="sound" preload="auto">
+<!-- <audio preload="auto">とすることで、音源がプリロードされます。-->
+    <source src="music.mp3" type="audio/mp3">
+</audio>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="tap.js"></script>
+</body>
+</html>
